@@ -1,0 +1,39 @@
+{
+  "name": "KooberUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of KooberUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rcacheaux/KooberUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rcacheaux": "rene.cacheaux@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rcacheaux/KooberUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.1"
+  },
+  "source_files": "KooberUIKit/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.3.0"
+    ],
+    "RxCocoa": [
+      "~> 4.3.0"
+    ],
+    "PromiseKit": [
+      "~> 6.4.0"
+    ],
+    "Kingfisher": [
+      "~> 4.9.0"
+    ],
+    "KooberKit": [
+      "~> 0.1.0"
+    ]
+  }
+}

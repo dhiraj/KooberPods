@@ -1,0 +1,30 @@
+{
+  "name": "KooberKit",
+  "version": "0.1.0",
+  "summary": "A short description of KooberKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rcacheaux/KooberKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rcacheaux": "rene.cacheaux@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rcacheaux/KooberKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.1"
+  },
+  "source_files": "KooberKit/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.3.0"
+    ],
+    "PromiseKit": [
+      "~> 6.4.0"
+    ]
+  }
+}
